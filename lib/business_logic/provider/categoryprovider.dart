@@ -13,7 +13,7 @@ final categoryProvider =
     sortedByCategory[key] = [];
   });
 
-  final channels = ref.watch(mainChannels);
+  final channels = ref.watch(mainChannelsProvider);
   final categoriesChannels = ref.watch(channelCardProvider.state);
   final countryCode = ref.watch(countryCodeProvider.state);
 

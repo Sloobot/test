@@ -10,7 +10,7 @@ final countryProvider =
     Provider<AsyncValue<Map<String, List<ChannelObj>>>>((ref) {
   Map<String, List<ChannelObj>> sortedByCountry = {};
 
-  final channels = ref.watch(mainChannels);
+  final channels = ref.watch(mainChannelsProvider);
   print("zingerioinoi");
 
   return channels.when(

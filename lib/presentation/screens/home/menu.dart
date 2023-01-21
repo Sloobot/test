@@ -39,7 +39,7 @@ class Menu extends ConsumerWidget {
             child: Column(
               children: [
                 MainAppbar(
-                  havSettingBtn: true,
+                  havSettingBtn: false,
                   widget: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.start,
