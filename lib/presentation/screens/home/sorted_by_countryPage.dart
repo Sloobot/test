@@ -161,18 +161,6 @@ class SortedByCountryPage extends ConsumerWidget {
                           padding: const EdgeInsets.only(bottom: 8.0),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              FavAllCard(
-                                text: "Fav",
-                                icon: FontAwesomeIcons.star,
-                                count: 25,
-                              ),
-                              FavAllCard(
-                                text: "All",
-                                icon: FontAwesomeIcons.tv,
-                                count: allChanellsCount,
-                              ),
-                            ],
                           ),
                         ),
                         Container(

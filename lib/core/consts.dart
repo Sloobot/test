@@ -6,9 +6,9 @@ const Color kWhiteBg = Color(0xff262436);
 const Color kPurple = Color(0xff9c4af5);
 const Color kGray = Color(0xff262433);
 const Map<String, String> kCategoryType = {
-  "Animation":
+  "TV 1":
       "https://img.elo7.com.br/product/original/317F25D/adesivo-personalizado-para-parede-desenho-bob-esponja-series.jpg",
-  "Auto":
+  "TV 2":
       "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
   "Business":
       "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",

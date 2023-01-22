@@ -45,23 +45,26 @@ final categoryProvider =
           x++;
 
           switch (channel.categories[0].name) {
-            case "Animation":
+            case "TV 1":
               categoriesChannels.state.forEach((element) =>
-                  element.name == "Animation" ? element.channelCount++ : null);
+                  element.name == "TV 1" ? element.channelCount++ : null);
+              sortedByCategory["TV 1"]!.add(channel);
 
               break;
-            case "Business":
+            case "TV 2":
               for (var element in categoriesChannels.state) {
-                element.name == "Business" ? element.channelCount++ : null;
+                element.name == "TV 2" ? element.channelCount++ : null;
               }
 
+              sortedByCategory["TV 2"]!.add(channel);
               break;
 
-            case "Cooking":
+            case "TV 3":
               for (var element in categoriesChannels.state) {
-                element.name == "Cooking" ? element.channelCount++ : null;
+                element.name == "TV 3" ? element.channelCount++ : null;
               }
 
+              sortedByCategory["TV 3"]!.add(channel);
 
               break;
 
